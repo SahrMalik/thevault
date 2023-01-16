@@ -1,0 +1,33 @@
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color:red;
+}
+
+a:active{
+  color:green;
+}
+
+body{
+  background-color:#DDDDDD;
+  color:black;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  line-height: 1.4em;
+  margin: 0;
+}
+
+body h1{
+  margin-bottom: 35px;
+}
+
+.container{
+  width: 95%;
+  margin:auto;
+}
+
+
+
