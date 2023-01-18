@@ -11,6 +11,10 @@ a:active{
   color:green;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body{
   background-color:#DDDDDD;
   color:black;
@@ -22,11 +26,19 @@ body{
 
 body h1{
   margin-bottom: 35px;
+  margin-top: 40px;
 }
 
 .container{
   width: 95%;
   margin:auto;
+}
+
+.recipe-box {
+  background-color:white;
+  border: 1px black solid;
+  border-radius: 15px;
+  margin: 20px 0;
 }
 
 
