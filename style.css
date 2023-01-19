@@ -41,27 +41,28 @@ body h1{
 }
 
 .home-top{
-  height: 30px;
+  height: 20px;
   width: 1000px;
   display: flex;
-  background-color: #78a2cc;
+  background-color: #f6e3ba;
 }
 
 .header-container{
   color: black;
   display: flex;
   justify-content: center;
-  background-color:#96b9d0;
+  background-color:#ffefcb;
 }
 
 .header{
-  height: 70px;
+  height: 60px;
   width: 1000px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   margin-left: 20px;
   font-size: 25px;
+  font-family: Arial black (sans-serif);
 }
 
 .header-img{
