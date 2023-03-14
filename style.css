@@ -102,6 +102,15 @@ body h1{
   align-items: center;
 }
 
+.button-box1{
+  flex: 1;
+  margin: 10px;
+  height: 400px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
 .button{
   flex: initial;
   margin: 10px;
