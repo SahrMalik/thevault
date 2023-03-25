@@ -53,16 +53,16 @@ body h1{
   width: 1800px;
   display: flex;
   justify-content: flex-start;
-  padding-bottom: 100px;
+  padding-bottom: 120px;
   margin-left: 20px;
   margin-top: 20px;
-  font-size: 25px;
+  font-size: 32px;
   font-family: Arial black (sans-serif);
   border-bottom: 1px darkgray solid;
 }
 
 .header-img{
-  margin-right: 10px;
+  margin-right: 20px;
   margin-top: 5px;
 }
 
@@ -93,6 +93,14 @@ body h1{
   align-items: center;
 }
 
+.button-container1{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items:flex-start;
+}
+
 .button-box{
   flex: 1;
   margin: 10px;
@@ -107,8 +115,9 @@ body h1{
 .button-box1{
   flex: 1;
   margin: 10px;
+  margin-left: 100px;
   height: 300px;
-  width: 250px;
+  width: 500px;
   display: flex;
   flex-direction: column;
 }
