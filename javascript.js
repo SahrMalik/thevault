@@ -3,3 +3,10 @@ function randomdessert() {
     let val = arr[Math.floor(Math.random() * arr.length)];
     window.location = val;
 }
+
+function randomrecipe() {
+    let arr = ['chickpea-curry.html', 'chilliconcarne.html', 'signaturebeans.html', 'speltbread.html', 'speltpizza.html',
+'sweetpotato-curry.html', 'turkishpide.html'];
+    let val = arr[Math.floor(Math.random() * arr.length)];
+    window.location = val;
+}
